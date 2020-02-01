@@ -1,0 +1,15 @@
+"""
+Open() --> Function is used to read Write to the file.
+'r' read
+'w' write
+'a' append
+'x' create
+'t' text
+'b' Binary
+
+Open() -> params path, mode
+
+With
+
+"""
+xlsx,properties,ini

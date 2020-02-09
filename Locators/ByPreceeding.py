@@ -1,0 +1,1 @@
+# //input[@type='password' and @id='pass']//preceding ::td[1]/input

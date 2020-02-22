@@ -14,8 +14,8 @@ AND OR
 
 
 """
-lp.driver.get("https://www.google.in")
-lp.driver.find_element_by_xpath("//input[@name='q']").send_keys("Selenium python jobs in bangalore",Keys.ENTER)
+lp.driver.get("https://www.facebook.com")
+lp.driver.find_element_by_xpath("//input[@type='text' and @name='firstname' or @id='u_0_m']").send_keys("Arvind",Keys.ENTER)
 
 
 time.sleep(2)

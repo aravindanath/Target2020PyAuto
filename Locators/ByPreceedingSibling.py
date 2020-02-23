@@ -5,11 +5,11 @@ from selenium.webdriver.common.keys import Keys
 lp.driver.get("http://the-internet.herokuapp.com/tables")
 
 
-fName = "//table[@id='table1']/tbody/tr/td[contains(text(),'FIRSTNAME')]//following::td[3]".replace("FIRSTNAME","Frank")
 
-web = lp.driver.find_element_by_xpath(fName).text
 
-print("Website ",web)
+web = lp.driver.find_element_by_xpath("//table[@id='table1']/tbody/tr/td[contains(text(),'Tim')]//preceding-sibling::td").text
+
+print("last name ",web)
 
 
 time.sleep(3)

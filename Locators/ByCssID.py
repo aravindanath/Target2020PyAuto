@@ -4,7 +4,13 @@ from selenium.webdriver.common.keys import Keys
 
 lp.driver.get("https://www.amazon.com/")
 
-lp.driver.find_element_by_css_selector("#twotabsearchtextbox").send_keys("ipad pro 2019",Keys.ENTER)
+"""
+# hash represents the id in CSS
+"""
+
+lp.driver.find_element_by_css_selector("#twotabsearchtextbox").send_keys("ipad pro",Keys.ENTER)
+
+
 time.sleep(5)
 
 lp.driver.quit()

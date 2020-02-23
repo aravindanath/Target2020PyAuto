@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 
 lp.driver.get("https://app.hubspot.com/login?loginPortalId=&loginRedirectUrl=https%3A%2F%2Fapp.hubspot.com%2Fhome-beta")
 time.sleep(10)
-lp.driver.find_element_by_css_selector("input.form-control.private-form__control.login-email").send_keys("dummy@testmail.com",Keys.ENTER)
+lp.driver.find_element_by_css_selector("input#username.form-control.private-form__control.login-email").send_keys("dummy@testmail.com",Keys.ENTER)
 time.sleep(5)
 
 

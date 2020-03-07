@@ -1,0 +1,24 @@
+1. Autosuggest done
+2. calender done
+3. webtable done, Dropdowns > done, Multiselect >done,  CB, Radio,
+4. iframes done
+5. window handling
+6. scroll -- JavaScript
+7. fileupload -- using AUTOIT
+8. filedownload , Waits
+9. DB - connection
+10.cloud execution
+11.Allure report
+12.Pytest
+13.Frame Work dev
+14.Jenkins
+
+
+
+1. Print all the sorted due in http://the-internet.herokuapp.com/tables (table 1)
+2. Print all the lang from wiki un-sorted and sorted lang
+
+http://toolsqa.com/automation-practice-form/
+
+3. iframe --> http://the-internet.herokuapp.com/iframe
+

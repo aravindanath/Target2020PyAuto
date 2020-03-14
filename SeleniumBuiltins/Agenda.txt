@@ -5,9 +5,9 @@
 5. window handling
 6. scroll -- JavaScript
 7. fileupload -- using AUTOIT
-8. filedownload , Waits
+8. filedownload , Waits --> done
 9. DB - connection
-10.cloud execution
+10.cloud execution --completed
 11.Allure report
 12.Pytest
 13.Frame Work dev

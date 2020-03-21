@@ -25,3 +25,4 @@ lp.driver.find_element_by_xpath("//span[contains(text(),'Hello, Sign in') or con
 print(lp.driver.current_url)
 time.sleep(3)
 lp.driver.quit()
+
